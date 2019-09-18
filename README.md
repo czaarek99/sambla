@@ -6,8 +6,4 @@
 
 #### Output
 
-```json
-{
-  beans: 'nosrep'
-}
-```
+`{"beans":"nosrep"}`

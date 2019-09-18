@@ -6,13 +6,7 @@ try {
 	const parsed = JSON.parse(INPUT);
 	const result = reverse(parsed);
 
-	const stringResult = util.inspect(result, {
-		depth: Infinity,
-		colors: true,
-		compact: false
-	});
-
-	console.log(stringResult);
+	console.log(JSON.stringify(result));
 } catch(error)  {
 	console.error("Malformed JSON");
 }
